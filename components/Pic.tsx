@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import p1 from '../public/p-1.png'
 import React from 'react'
 
 const Pic = (
