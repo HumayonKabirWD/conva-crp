@@ -55,3 +55,10 @@ body {
   }
 }
 
+.gradient {
+  background: radial-gradient(circle, 
+  rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0) 30%), 
+  radial-gradient(circle at top left, #76e2b3, #ffd700, #ff77e9);
+  background-blend-mode: screen;
+  background-size: cover;
+}

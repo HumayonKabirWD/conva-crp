@@ -22,8 +22,8 @@ const Start = () => {
 
       <div className="flex absolute right-5 top-5 gap-4 scale-up1">
         <Link className="bg-[#C43B92] py-2 px-4 rounded-full font-bold hover:scale-105" href="/">Home</Link>
-        <Link className="bg-[#C43B92] py-2 px-4 rounded-full font-bold hover:scale-105" href="/">Service</Link>
-        <Link className="bg-[#C43B92] py-2 px-4 rounded-full font-bold hover:scale-105" href="/">About</Link>
+        <Link className="bg-[#C43B92] py-2 px-4 rounded-full font-bold hover:scale-105" href="#service">Service</Link>
+        <Link className="bg-[#C43B92] py-2 px-4 rounded-full font-bold hover:scale-105" href="#about">About</Link>
       </div>
 
       <div className="flex flex-col items-center justify-center absolute mt-72 text-center">
